@@ -20,6 +20,5 @@
         <!-- (find,replace,string,count) -->
         <p><?php echo str_replace("hey","ciao",$paragraph); ?> </p>
     </section>
-
 </body>
 </html>
