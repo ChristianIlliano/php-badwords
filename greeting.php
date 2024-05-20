@@ -12,13 +12,14 @@
 <body>
     <section>
         <h2>Ecco la lunghezza del tuo paragrafo</h2>
+        <p><?php echo $paragraph; ?></p>
         <p>Questa è la sua lunghezza <?php echo strlen($paragraph); ?> </p>
     </section>
 
     <section>
         <h2>Ecco il un paragrafo censurato</h2>
         <!-- (find,replace,string,count) -->
-        <p><?php echo str_replace("hey","ciao",$paragraph); ?> </p>
+        <p><?php echo str_replace("tutorials","***",$paragraph); ?> </p>
     </section>
 </body>
 </html>
